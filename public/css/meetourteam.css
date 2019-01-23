@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 170%;
+  width: 100%;
+}
+
+
+.header_info .col-sm-3{
+  background-color: #66CDAA;
+
+}
+
+#club_logo{
+border-radius: 55%;
+margin-left: 90px;
+margin-top: 20px;
+border: 10px solid green;
+padding: 10px;
+}
+
+
+.header_info .col-sm-9{
+  background-color: #66CDAA;
+  color: white;
+  height: 300px
+}
+
+
+h1{
+  border-bottom: 10px solid green;
+}
+
+#header_text{
+padding-top: 70px;
+padding-left: 10px;
+font-size: 72px
+}
+
+.fa-leaf {
+  font-size: 110px;
+  color: green;
+}
+
+.nav-link{
+  color: white;
+  font-size: 21px;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+
+}
+
+footer{
+  display: block;
+  background-color: #66CDAA;
+  height: 150px;
+
+}
+
+h5{
+  margin-left: 70px;
+  text-decoration: overline;
+  font-style: italic;
+  font-size: 33px !important;
+  color: white !important;
+  padding-top: 20px;
+}
+
+.greener{
+  font-size: 33px;
+  color: green;
+}
+
+.social_media ul li i{
+  font-size: 65px;
+  color: green;
+  margin: 0px 15px;
+}
+
+.social_media ul li i:hover{
+  cursor: pointer;
+  color: white;
+}
+
+
+.social_media ul{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  margin-left: 70px
+}
+
+#meetourteam{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+  color: brown;
+}
+
+.card{
+  margin: 11px auto;
+  border: 6px solid #03a9f4 !important;
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 4% !important;
+
+}
+
+.bottom_cards .card{
+  margin: 5px auto;
+}
+
+.card-title{
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.card-body{
+padding: 0;
+padding-top: 15px;
+background-color: aqua;
+}
+
+
+.card-text{
+  color: grey;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-secondary{
+  background-color: green !important;
+  font-size: 20px;
+}
+
+.btn-block{
+  display: block;
+  width: 110%;
+}
+
+.col-sm-4{
+  text-align: right;
+}
